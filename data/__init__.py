@@ -39,7 +39,7 @@ from .nursinghome_level.processed.hifld_nursinghomes.clean import clean_hifld_nu
 
 def load_county_data(data_dir=".", cached_file="county_data.csv", 
                      cached_abridged_file="county_data_abridged.csv",
-                     cached=True, abridged=True, infections_data="usafacts", 
+                     cached=True, abridged=True, infections_data="nytimes", 
                      with_private_data=False, preprocess=True, discard=False):
     '''  Load in merged county data set
     
